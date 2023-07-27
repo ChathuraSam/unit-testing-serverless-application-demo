@@ -1,0 +1,28 @@
+{
+  "name": "unit-testing-demo-app",
+  "version": "0.1.0",
+  "description": "A TypeScript starter for Serverless Framework",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest",
+    "local": "serverless offline start --stage local"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnomalyInnovations/serverless-typescript-starter.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1423.0",
+    "serverless-bundle": "^6.0.0",
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-offline": "^12.0.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.3",
+    "ts-jest": "^29.1.0"
+  }
+}
